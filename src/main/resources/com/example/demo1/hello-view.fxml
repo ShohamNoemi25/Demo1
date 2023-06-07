@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.PasswordField?>
+<VBox fx:id="mainPanel" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.demo1.HelloController">
+    <VBox fx:id="header">
+        <Pane fx:id="topImage">
+        </Pane>
+        <Pane fx:id="profileImage">
+        </Pane>
+    </VBox>
+    <Pane styleClass="divider">
+    </Pane>
+    <VBox fx:id="textLogin">
+        <Label fx:id="lblWelcomeText">
+            ¡BIENVENIDO OTRA VEZ!
+        </Label>
+        <Label fx:id="lblLoginText">
+            Ingresa a tu cuenta
+        </Label>
+    </VBox>
+    <Pane styleClass="divider">
+    </Pane>
+    <VBox fx:id="loginField">
+        <HBox fx:id="userField">
+            <Pane fx:id="userIcon">
+            </Pane>
+            <TextField fx:id="tfUserField" styleClass="field-class">
+            </TextField>
+
+        </HBox>
+        <Pane fx:id="divider3" styleClass="divider2">
+        </Pane>
+        <HBox fx:id="passwordField">
+            <Pane fx:id="passwordIcon">
+            </Pane>
+            <PasswordField fx:id="psPasswordField" styleClass="field-class">
+            </PasswordField>
+        </HBox>
+        <Pane styleClass="divider2">
+        </Pane>
+    </VBox>
+    <HBox styleClass="hbox-class" fx:id="checkBoxRecuerdame">
+        <Pane fx:id="void">
+        </Pane>
+        <Label text="Recuerdame" fx:id="txtRecuerdame" />
+        <CheckBox fx:id="cbRecuerdame" />
+    </HBox>
+    <Pane styleClass="divider2">
+    </Pane>
+    <HBox fx:id="login">
+        <Pane fx:id="void2">
+        </Pane>
+        <Button fx:id="btnLogin" text="Login">
+        </Button>
+    </HBox>
+</VBox>
+
+
+
+

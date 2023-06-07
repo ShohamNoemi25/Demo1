@@ -1,0 +1,101 @@
+#mainPanel{
+    -fx-background-color: #B0B3C4;
+    -fx-spacing: 0px;
+
+}
+#header{
+    -fx-background-color: #B0B3C4;
+    -fx-border-width: 0px;
+    -fx-alignment: center;
+}
+#topImage{
+    -fx-background-image: url(../images/nevado.jpg);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-max-width: 400;
+    -fx-min-height: 175;
+}
+#profileImage{
+    -fx-background-image: url(../images/Profile.png);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-max-width: 80;
+    -fx-min-height: 80;
+}
+
+#textLogin{
+    -fx-text-fill: #000000;
+    -fx-font-family: Montserrat;
+    -fx-alignment: center;
+}
+#lblWelcomeText{
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+.divider{
+    -fx-pref-width: 400;
+    -fx-pref-height: 40;
+}
+#userIcon{
+    -fx-pref-width: 35;
+    -fx-pref-height: 35;
+    -fx-background-image: url(../images/maleUser.png);
+    -fx-background-size: cover;
+}
+.field-class{
+    -fx-alignment: center-left;
+    -fx-pref-width: 200;
+    -fx-pref-height: 30;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+}
+#userField {
+    -fx-alignment: center;
+    -fx-spacing: 30px;
+}
+
+#passwordIcon {
+    -fx-pref-width: 35;
+    -fx-pref-height: 35;
+    -fx-background-image: url(../images/Secure.png);
+    -fx-background-size: cover;
+}
+#passwordField {
+    -fx-alignment: center;
+    -fx-spacing: 30px;
+}
+#checkBoxRecuerdame {
+    -fx-alignment: center;
+    -fx-text-fill: #000000;
+    -fx-font-family: Montserrat;
+    -fx-spacing: 10px;
+}
+
+#void{
+    -fx-pref-height: 20px;
+    -fx-pref-width: 160px;
+    -fx-background-color: #B0B3C4;
+}
+#btnLogin{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #000000;
+    -fx-pref-height: 30px;
+    -fx-pref-width: 200px;
+    -fx-font-size: 12px;
+    -fx-font-family: Montserrat;
+    -fx-alignment: center;
+}
+#login{
+    -fx-alignment: center;
+    -fx-spacing: 60px;
+}
+#void2{
+    -fx-pref-height: 20px;
+    -fx-pref-width: 10px;
+}
+.divider2{
+    -fx-pref-width: 400;
+    -fx-pref-height: 10;
+}
